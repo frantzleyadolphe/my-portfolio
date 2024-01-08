@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Nanum: ["Nanum Gothic Coding", "sans-serif"],
+        Poppins: ["Poppins", "sans-serif"],
+        Inter: ["Inter", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
