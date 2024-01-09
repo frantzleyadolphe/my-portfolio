@@ -1,11 +1,16 @@
-import logo from "../assets/logo.png";
+//import b2 from "../assets/b2.jpeg";
+import Navbar from "./navbar";
+import About from "./About";
+import Banner from "./sections/banner";
+import Skills from "./sections/skills";
+
 export default function Home() {
   return (
-    <div className="m-0 p-0 bg-white">
-      <div className="mx-20 h-16  flex flex-row justify-between items-center">
-        <img src={logo} alt="logo" className="h-14" />
-        <h2>React</h2>
-      </div>
+    <div className="m-0 p-0 bg-white ">
+      <Navbar />
+      <Banner />
+      <About />
+      <Skills />
     </div>
   );
 }
