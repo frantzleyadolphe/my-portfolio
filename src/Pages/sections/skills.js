@@ -1,7 +1,6 @@
 import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
-import MongoDB from "../../assets/MongoDB.png";
 import Firebase from "../../assets/Firebase.png";
 import api from "../../assets/api.png";
 import JavaScript from "../../assets/JavaScript.png";
