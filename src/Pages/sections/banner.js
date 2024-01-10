@@ -14,7 +14,7 @@ export default function Banner() {
           alt="profil"
           className="rounded-full text-center h-28 lg:h-48 w-28 lg:w-48 m-5 self-center"
         />
-        <h1 className="font-Poppins font-bold lg:text-3xl text-xl self-center">
+        <h1 className="font-Poppins font-bold text-md lg:text-3xl  self-center">
           I'm a{" "}
           <span className="text-[#F29F05] ">
             <Typewriter
