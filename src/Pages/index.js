@@ -1,4 +1,3 @@
-//import b2 from "../assets/b2.jpeg";
 import Navbar from "./navbar";
 import About from "./About";
 import Banner from "./sections/banner";
