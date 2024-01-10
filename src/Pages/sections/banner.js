@@ -42,10 +42,29 @@ export default function Banner() {
           from scratch to create a seamless user experience.
         </p>
         <div className="flex flex-row gap-5 self-center mt-5">
-          <LinkedInIcon />
-          <GitHubIcon />
-          <TwitterIcon />
-          <InstagramIcon />
+          <a
+            href="https://www.linkedin.com/in/frantzley-adolphe-760b4b1b3/"
+            className="hover:text-[#F29F05]"
+          >
+            <LinkedInIcon />
+          </a>
+          <a
+            href="https://github.com/frantzleyadolphe"
+            className="hover:text-[#F29F05]"
+          >
+            <GitHubIcon />
+          </a>
+
+          <a href="#" className="hover:text-[#F29F05]">
+            <TwitterIcon />
+          </a>
+
+          <a
+            href="https://www.instagram.com/frantzley.adolphe/"
+            className="hover:text-[#F29F05]"
+          >
+            <InstagramIcon />
+          </a>
         </div>
         <div className="flex flex-col lg:flex-row gap-5 self-center">
           <button className="bg-[#F29F05] hover:text-[#131315] text-white font-Poppins py-2 px-4 rounded-full mt-5 ">
