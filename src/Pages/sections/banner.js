@@ -19,7 +19,7 @@ export default function Banner() {
           <span className="text-[#F29F05] ">
             <Typewriter
               words={[
-                "<Developer />",
+                "<Software Engineer />",
                 "UI/UX Designer",
                 "Brand Designer",
                 "Content Creator",
