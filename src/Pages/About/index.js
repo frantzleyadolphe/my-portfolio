@@ -18,11 +18,13 @@ export default function About() {
               className="w-full flex justify-center items-center "
               data-aos="fade-right"
             >
-              <img
-                src={photo}
-                className="rounded-full h-40 lg:h-80 "
-                alt="myPicture"
-              />
+              <div className="rounded-full border-2 border-slate-400 ">
+                <img
+                  src={photo}
+                  className="rounded-full h-40 lg:h-80 m-2"
+                  alt="myPicture"
+                />
+              </div>
             </div>
           </div>
           <div className="w-4/5 lg:w-1/2">
