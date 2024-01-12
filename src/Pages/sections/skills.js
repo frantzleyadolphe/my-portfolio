@@ -15,11 +15,11 @@ const skills = [
   },
   {
     name: "React",
-    percentage: 75,
+    percentage: 70,
   },
   {
     name: "R-Native",
-    percentage: 75,
+    percentage: 70,
   },
   {
     name: "Php",
