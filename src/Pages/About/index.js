@@ -7,9 +7,9 @@ AOS.init();
 
 export default function About() {
   return (
-    <div className="w-full bg-white mt-2">
+    <div className="w-full bg-white pb-4">
       <div className="mx-5 lg:mx-20 h-full">
-        <div className="mt-5 text-xl text-center" data-aos="zoom-in">
+        <div className="pt-5 text-xl text-center" data-aos="zoom-in">
           <h1 className="font-Poppins font-medium text-slate-400">ABOUT ME</h1>
         </div>
         <div className="flex flex-col lg:flex-row items-center mt-5">
@@ -35,12 +35,13 @@ export default function About() {
                 <span className="text-[#F29F05] font-bold">
                   Frantzley ADOLPHE
                 </span>
-                , based in USA and i'm passionate about everything that has to
-                do with digital design and art direction, i've a serious passion
-                for UI effects, animations and creating, dynamic user
-                experiences and coding. I enjoy working with agencies and
-                enthusiastic people who want to solve problems through beautiful
-                design, website, mobile application and photographies.
+                , based in USA with four (4) years experiences and i'm
+                passionate about everything that has to do with digital design
+                and art direction, i've a serious passion for UI effects,
+                animations and creating, dynamic user experiences and coding. I
+                enjoy working with agencies and enthusiastic people who want to
+                solve problems through beautiful design, website, mobile
+                application and photographies.
               </p>
             </div>
           </div>
