@@ -81,7 +81,7 @@ export default function Skills() {
                 steps={10}
                 space={4}
               />
-              <h3 className="text-white font-Poppins text-sm pt-2">
+              <h3 className="text-white font-Poppins text-xs lg:text-sm pt-2">
                 {skill.name}
               </h3>
             </div>
