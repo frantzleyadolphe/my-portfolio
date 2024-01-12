@@ -13,7 +13,9 @@ export default function Skills() {
           className="text-xl h-10 text-center flex justify-center items-center"
           data-aos="zoom-in"
         >
-          <h1 className="font-Poppins font-medium text-slate-400 ">MYSKILLS</h1>
+          <h1 className="font-Poppins font-medium text-slate-400 ">
+            MY SKILLS
+          </h1>
         </div>
         <div className="flex justify-evenly gap-6 flex-wrap mx-2">
           <div
