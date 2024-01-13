@@ -22,7 +22,7 @@ export default function Services() {
         </div>
         <div className="lg:flex justify-evenly gap-4 md:gap-4 grid grid-cols-2 flex-wrap mx-2">
           <div
-            className="lg:h-44 lg:w-60 h-52 w-40 md:w-[380px] bg-gradient-to-r from-rose-100 to-teal-100 rounded-2xl flex flex-col items-center justify-center"
+            className="lg:h-44 lg:w-60 h-52 w-full md:w-full bg-gradient-to-r from-rose-100 to-teal-100 rounded-2xl flex flex-col items-center justify-center"
             data-aos="zoom-in"
           >
             <div className="w-[70px] h-[70px]">
@@ -40,7 +40,7 @@ export default function Services() {
           </div>
           <div
             data-aos="zoom-in"
-            className="lg:h-44 lg:w-60 h-52 w-40 md:w-[380px] bg-gradient-to-r from-rose-100 to-teal-100 rounded-2xl flex flex-col items-center justify-center"
+            className="lg:h-44 lg:w-60 h-52 w-full md:w-full bg-gradient-to-r from-rose-100 to-teal-100 rounded-2xl flex flex-col items-center justify-center"
           >
             <div className="w-[70px] h-[70px]">
               <img src={web} alt="ui" width="70" height="70" />
@@ -58,7 +58,7 @@ export default function Services() {
 
           <div
             data-aos="zoom-in"
-            className="lg:h-44 lg:w-60 h-52 w-40 md:w-[380px] bg-gradient-to-r from-rose-100 to-teal-100 rounded-2xl flex flex-col items-center justify-center"
+            className="lg:h-44 lg:w-60 h-52 w-full md:w-full bg-gradient-to-r from-rose-100 to-teal-100 rounded-2xl flex flex-col items-center justify-center"
           >
             <div className="w-[70px] h-[70px]">
               <img src={design} alt="ui" width="70" height="70" />
@@ -76,7 +76,7 @@ export default function Services() {
           </div>
           <div
             data-aos="zoom-in"
-            className="lg:h-44 lg:w-60 h-52 w-40 md:w-[380px] bg-gradient-to-r from-rose-100 to-teal-100 rounded-2xl flex flex-col items-center justify-center"
+            className="lg:h-44 lg:w-60 h-52 w-full md:w-full sm:w-[350px] bg-gradient-to-r from-rose-100 to-teal-100 rounded-2xl flex flex-col items-center justify-center"
           >
             <div className="w-[70px] h-[70px]">
               <img src={photography} alt="ui" width="70" height="70" />
