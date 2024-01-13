@@ -32,7 +32,7 @@ export default function Services() {
               <h1 className="font-Poppins font-normal text-sm text-slate-400 text-center">
                 UI/UX
               </h1>
-              <p className="text-[10px] md:text-[15px] text-center pt-2 text-slate-600 font-Inter mx-2 font-light">
+              <p className="text-[10px] lg:text-[10px] md:text-[15px] text-center pt-2 text-slate-600 font-Inter mx-2 font-light">
                 It's crucial for ensuring that a product not only looks good but
                 also provides a positive and efficient user experience.
               </p>
@@ -49,7 +49,7 @@ export default function Services() {
               <h1 className="font-Poppins font-normal text-sm text-slate-400 text-center">
                 Web & Mobile Development
               </h1>
-              <p className="text-[10px] text-center pt-2 md:text-[15px] text-slate-600 font-Inter mx-2 font-light">
+              <p className="text-[10px] lg:text-[10px] text-center pt-2 md:text-[15px] text-slate-600 font-Inter mx-2 font-light">
                 Services cover both front-end and back-end development for web
                 and mobile applications.
               </p>
@@ -67,7 +67,7 @@ export default function Services() {
               <h1 className="font-Poppins font-normal text-sm text-slate-400 text-center">
                 Graphic Design
               </h1>
-              <p className="text-[10px] text-center pt-2 md:text-[15px] text-slate-600 font-Inter mx-2 font-light">
+              <p className="text-[10px] lg:text-[10px] text-center pt-2 md:text-[15px] text-slate-600 font-Inter mx-2 font-light">
                 To create compelling visuals that resonate and convey brand
                 messages to target audience and effectively convey the intended
                 message.
@@ -85,7 +85,7 @@ export default function Services() {
               <h1 className="font-Poppins font-normal text-sm text-slate-400 text-center">
                 Photography
               </h1>
-              <p className="text-[10px] text-center pt-2 md:text-[15px] text-slate-600 font-Inter mx-2 font-light">
+              <p className="text-[10px] lg:text-[10px] text-center pt-2 md:text-[15px] text-slate-600 font-Inter mx-2 font-light">
                 To capture moments, convey emotions, and visually represent
                 products or concepts for personal use or business promotion.
               </p>
