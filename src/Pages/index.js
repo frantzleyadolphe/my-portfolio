@@ -2,6 +2,7 @@ import Navbar from "./navbar";
 import About from "./About";
 import Banner from "./sections/banner";
 import Skills from "./sections/skills";
+import Services from "./sections/services";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Banner />
       <About />
       <Skills />
+      <Services />
     </div>
   );
 }
