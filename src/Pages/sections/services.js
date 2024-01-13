@@ -87,8 +87,7 @@ export default function Services() {
               </h1>
               <p className="text-[10px] text-center pt-2 text-slate-600 font-Inter mx-2 font-light">
                 To capture moments, convey emotions, and visually represent
-                products or concepts for personal use or business promotion, and
-                photography services.
+                products or concepts for personal use or business promotion.
               </p>
             </div>
           </div>
