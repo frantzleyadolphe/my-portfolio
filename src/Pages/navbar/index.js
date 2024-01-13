@@ -64,7 +64,7 @@ export default function Navbar() {
         {/* MOBILE NAV */}
 
         {!isNonMobileScreen && isMobileMenuToggled && (
-          <div className="bg-white fixed h-full w-1/2 right-0 bottom-0 z-10">
+          <div className="bg-white fixed h-full w-full right-0 bottom-0 z-10">
             <div className="flex items-center justify-end w-full">
               <button className="m-5">
                 <CloseIcon
@@ -73,13 +73,23 @@ export default function Navbar() {
                 />
               </button>
             </div>
-            <div>
-              <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>Project</li>
-                <li>Contact</li>
+            <div className="w-full flex justify-center h-1/">
+              <ul className="font-Poppins w-full">
+                <li className="h-14 flex items-center justify-center hover:bg-[#131315] w-full hover:text-white">
+                  Home
+                </li>
+                <li className="h-14 flex items-center justify-center hover:bg-[#131315] w-full hover:text-white">
+                  About
+                </li>
+                <li className="h-14 flex items-center justify-center hover:bg-[#131315] w-full hover:text-white">
+                  Services
+                </li>
+                <li className="h-14 flex items-center justify-center hover:bg-[#131315] w-full hover:text-white">
+                  Project
+                </li>
+                <li className="h-14 flex items-center justify-center hover:bg-[#131315] w-full hover:text-white">
+                  Contact
+                </li>
               </ul>
             </div>
           </div>
