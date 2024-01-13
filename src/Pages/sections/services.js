@@ -11,7 +11,7 @@ AOS.init();
 export default function Services() {
   return (
     <div className="w-full id=services">
-      <div className="pt-5 mx-5 lg:mx-20 rounded-3xl h-full flex flex-col gap-6">
+      <div className="pt-5 mx-5 lg:mx-20 rounded-3xl flex flex-col gap-6">
         <div className="text-xl h-10 text-center flex justify-center items-center">
           <h1
             className="font-Poppins font-medium text-slate-400"
@@ -29,10 +29,10 @@ export default function Services() {
               <img src={ui} alt="ui" width="70" height="70" />
             </div>
             <div className="w-full">
-              <h1 className="font-Poppins font-medium text-slate-400 text-center">
+              <h1 className="font-Poppins font-normal text-sm text-slate-400 text-center">
                 UI/UX
               </h1>
-              <p className="text-[10px] text-center pt-2 text-black font-Poppins mx-2 font-light">
+              <p className="text-[10px] text-center pt-2 text-slate-600 font-Inter mx-2 font-light">
                 It's crucial for ensuring that a product not only looks good but
                 also provides a positive and efficient user experience.
               </p>
@@ -46,10 +46,10 @@ export default function Services() {
               <img src={web} alt="ui" width="70" height="70" />
             </div>
             <div className="w-full">
-              <h1 className="font-Poppins font-medium text-slate-400 text-center">
+              <h1 className="font-Poppins font-normal text-sm text-slate-400 text-center">
                 Web & Mobile Development
               </h1>
-              <p className="text-[10px] text-center pt-2 text-black font-Poppins mx-2 font-light">
+              <p className="text-[10px] text-center pt-2 text-slate-600 font-Inter mx-2 font-light">
                 Services cover both front-end and back-end development for web
                 and mobile applications.
               </p>
@@ -64,10 +64,10 @@ export default function Services() {
               <img src={design} alt="ui" width="70" height="70" />
             </div>
             <div className="w-full">
-              <h1 className="font-Poppins font-medium text-slate-400 text-center">
+              <h1 className="font-Poppins font-normal text-sm text-slate-400 text-center">
                 Graphic Design
               </h1>
-              <p className="text-[10px] text-center pt-2 text-black font-Poppins mx-2 font-light">
+              <p className="text-[10px] text-center pt-2 text-slate-600 font-Inter mx-2 font-light">
                 To create compelling visuals that resonate and convey brand
                 messages to target audience and effectively convey the intended
                 message.
@@ -82,10 +82,10 @@ export default function Services() {
               <img src={photography} alt="ui" width="70" height="70" />
             </div>
             <div className="w-full">
-              <h1 className="font-Poppins font-medium text-slate-400 text-center">
+              <h1 className="font-Poppins font-normal text-sm text-slate-400 text-center">
                 Photography
               </h1>
-              <p className="text-[10px] text-center pt-2 text-black font-Poppins mx-2 font-light">
+              <p className="text-[10px] text-center pt-2 text-slate-600 font-Inter mx-2 font-light">
                 To capture moments, convey emotions, and visually represent
                 products or concepts for personal use or business promotion, and
                 photography services.
