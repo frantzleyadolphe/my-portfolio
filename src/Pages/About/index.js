@@ -8,7 +8,7 @@ AOS.init();
 
 export default function About() {
   return (
-    <div className="w-full bg-white pb-8">
+    <div className="w-full bg-white pb-8 ">
       <div className="mx-5 lg:mx-20 h-full">
         <div className="pt-5 text-xl text-center" data-aos="zoom-in">
           <h1 className="font-Poppins font-medium text-slate-400">ABOUT ME</h1>
@@ -76,7 +76,7 @@ export default function About() {
             >
               <a
                 href="#"
-                className=" text-center text-[#F29F05] border-2 border-[#F29F05] mt-6 p-2 w-40 rounded-full "
+                className="text-center text-[#F29F05] border-2 border-[#F29F05] mt-6 p-2 w-40 rounded-full hover:bg-[#131315]"
               >
                 Hire me
               </a>
