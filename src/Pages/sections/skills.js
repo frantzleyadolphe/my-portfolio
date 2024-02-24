@@ -58,7 +58,10 @@ const skills = [
 export default function Skills() {
   return (
     <div className="w-full h-[550px] lg:h-60 md:h-80" id="skills">
-      <div className="pt-5 mx-5 lg:mx-20  bg-[#131315] rounded-3xl h-full flex flex-col gap-6">
+      <div
+        className="pt-5 mx-5 lg:mx-20  bg-[#131315] rounded-3xl h-full flex flex-col gap-6"
+        data-aos="zoom-in"
+      >
         <div
           className="text-xl h-10 text-center flex justify-center items-center"
           data-aos="zoom-in"
@@ -82,7 +85,10 @@ export default function Skills() {
                 space={4}
               />
 
-              <h3 className="text-white font-Poppins text-xs lg:text-sm pt-2">
+              <h3
+                className="text-white font-Poppins text-xs lg:text-sm pt-2"
+                key={index}
+              >
                 {skill.name}
               </h3>
             </div>

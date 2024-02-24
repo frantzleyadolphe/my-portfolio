@@ -33,11 +33,11 @@ export default function About() {
               data-aos="zoom-in"
               className="text-lg lg:text-xl font-Poppins font-bold mb-2 lg:mb-4 lg:text-start text-center mt-4 md:mt-4 sm:mt-4 lg:mt-0"
             >
-              Why you{" "}
+              Who{" "}
               <span className="text-[#F29F05] underline underline-offset-[5px]">
-                Hire me
+                i am
               </span>{" "}
-              for your next projects ?
+              ?
             </h1>
             <div
               className="w-full h-full flex justify-center items-center"
@@ -48,13 +48,13 @@ export default function About() {
                 <span className="text-[#F29F05] font-bold">
                   Frantzley ADOLPHE
                 </span>
-                , based in USA with four (4) years experiences and i'm
-                passionate about everything that has to do with digital design
-                and art direction, i've a serious passion for UI effects,
-                animations and creating, dynamic user experiences and coding. I
-                enjoy working with agencies and enthusiastic people who want to
-                solve problems through beautiful design, website, mobile
-                application and photographies.
+                with four (4) years experiences and i'm passionate about
+                everything that has to do with digital design and art direction,
+                i've a serious passion for UI effects, animations and creating,
+                dynamic user experiences and coding. I enjoy working with
+                agencies and enthusiastic people who want to solve problems
+                through beautiful design, website, mobile application and
+                photographies.
               </p>
             </div>
             <div

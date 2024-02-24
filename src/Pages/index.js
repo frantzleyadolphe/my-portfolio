@@ -3,6 +3,7 @@ import About from "./About";
 import Banner from "./sections/banner";
 import Skills from "./sections/skills";
 import Services from "./sections/services";
+import Contact from "./sections/contact";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <About />
       <Skills />
       <Services />
+      <Contact />
     </div>
   );
 }
